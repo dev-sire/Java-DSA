@@ -1,0 +1,8 @@
+# Ignore VS Code specific folders
+.vscode/
+
+# Ignore all class files
+*.class
+
+# Optional: Ignore target directories used by build tools like Maven or Gradle
+target/
