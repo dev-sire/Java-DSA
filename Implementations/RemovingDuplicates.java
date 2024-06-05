@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ExerciseQ4 {
+public class RemovingDuplicates {
 
     public static int[] removeDuplicates(int[] inputArray) {
         if (inputArray.length == 0) {

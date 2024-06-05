@@ -2,7 +2,7 @@
 
 import java.util.Stack;
 
-public class ExerciseQ2 {
+public class ValidParenthesis {
     public boolean isValid(String s){
         if(s.length()%2 != 0){
             return false;

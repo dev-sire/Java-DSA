@@ -1,4 +1,4 @@
-public class ExerciseQ5 {
+public class SearchInBST {
     public class TreeNode {
         int val;
         TreeNode left;

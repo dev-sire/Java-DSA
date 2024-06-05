@@ -1,6 +1,6 @@
 // Reversing a LinkedList Problem
 
-public class ExerciseQ1 {
+public class ReverseList {
     public class ListNode {
         int val;
         ListNode next;
