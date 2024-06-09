@@ -16,10 +16,10 @@ class Student{
     }
 }
 
-public class App {
+public class SchoolDatabase {
     private Set<String> studentIds;
 
-    public App(){
+    public SchoolDatabase(){
         studentIds = new HashSet<>();
     }
     public void addStudents(Student student){
@@ -32,7 +32,7 @@ public class App {
         System.out.println("Student: "+student.getName()+" Added to the Database");
     }
     public static void main(String[] args) {
-        App db = new App();
+        SchoolDatabase db = new SchoolDatabase();
 
         Student student1 = new Student("23-CY-33", "Aman Shahid");
         Student student3 = new Student("23-CY-33", "Ayan Atif");

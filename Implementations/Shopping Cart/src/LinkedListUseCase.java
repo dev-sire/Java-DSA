@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class LinkedListUseCase {
     public static void main(String[] args) {
         LinkedList linkList = new LinkedList();
         Scanner input = new Scanner(System.in);

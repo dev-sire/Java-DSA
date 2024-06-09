@@ -1,9 +1,9 @@
 import java.util.HashMap;
 
-public class App {
+public class WebCacheService {
     private HashMap<String, String> cache;
 
-    public App(){
+    public WebCacheService(){
         cache = new HashMap<>();
     }
 
@@ -23,7 +23,7 @@ public class App {
         }
     }
     public static void main(String[] args) {
-        App WebPageCache = new App();
+        WebCacheService WebPageCache = new WebCacheService();
         
         String url1 = "https://www.visageshare.vercel.app";
         String url2 = "https://creativeminds-devsire.vercel.app";

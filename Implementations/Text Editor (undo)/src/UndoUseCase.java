@@ -1,8 +1,8 @@
-public class App {
+public class UndoUseCase {
     private StringBuilder document;
     private Stack<Integer> undoStack;
 
-    public App(){
+    public UndoUseCase(){
         this.document = new StringBuilder();
         this.undoStack = new Stack<>();
     }
@@ -24,7 +24,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        App TextEditor = new App();
+        UndoUseCase TextEditor = new UndoUseCase();
         TextEditor.insert("Hello ");
         TextEditor.insert("Java");
         TextEditor.printDocument();

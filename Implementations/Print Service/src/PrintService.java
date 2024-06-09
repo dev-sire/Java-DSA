@@ -1,7 +1,7 @@
-public class App {
+public class PrintService {
     private Queue<String> myQueue;
 
-    public App(){
+    public PrintService(){
         myQueue = new Queue<>();
     }
 
@@ -19,7 +19,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        App printService = new App();
+        PrintService printService = new PrintService();
 
         printService.submitPrintRequest("Document 1");
         printService.submitPrintRequest("Document 2");

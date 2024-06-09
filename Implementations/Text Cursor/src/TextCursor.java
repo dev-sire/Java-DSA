@@ -1,7 +1,7 @@
-public class App extends DoublyLinkedList {
+public class TextCursor extends DoublyLinkedList {
     private Node cursor;
 
-    public App(){
+    public TextCursor(){
         super();
         this.cursor = this.head;
     }
@@ -40,7 +40,7 @@ public class App extends DoublyLinkedList {
         }
     }
     public static void main(String[] args) {
-        App list = new App();
+        TextCursor list = new TextCursor();
         list.append(1);
         list.append(2);
         list.append(3);
