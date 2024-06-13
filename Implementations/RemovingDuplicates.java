@@ -19,9 +19,4 @@ public class RemovingDuplicates {
         }
         return resultArray;
     }
-    public static void main(String[] args) {
-        int[] arr = {23, 45, 45, 45, 67};
-        int[] removed = removeDuplicates(arr);
-        System.out.println(removed);
-    }
 }
