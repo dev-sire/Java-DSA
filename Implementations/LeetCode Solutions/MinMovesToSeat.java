@@ -7,7 +7,7 @@ public class MinMovesToSeat {
         Arrays.sort(students);
 
         for(int i=0; i<seats.length; ++i){
-            res += Math.abs(seats[i] - students[i])
+            res += Math.abs(seats[i] - students[i]);
         }
 
         return res;

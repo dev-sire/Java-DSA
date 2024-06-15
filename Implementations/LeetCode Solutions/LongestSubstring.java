@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
