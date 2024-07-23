@@ -1,3 +1,4 @@
+package Easy;
 public class MajorityElements {
     public int majorityElements(int[] nums){
         Integer ans = null;

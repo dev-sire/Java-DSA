@@ -1,3 +1,5 @@
+package Intermediate;
+
 import java.util.Arrays;
 
 public class MinDifferenceInThreeMoves {

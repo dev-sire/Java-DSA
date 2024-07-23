@@ -1,3 +1,5 @@
+package Easy;
+
 public class FindTheJudge {
     public int findJudge(int n, int[][] trust){
         int[] count = new int[n + 1];

@@ -1,3 +1,5 @@
+package Easy;
+
 public class FindMissingNumbers {
     public int missingNumbers(int[] nums){
         int ans = nums.length;

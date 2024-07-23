@@ -1,3 +1,5 @@
+package Intermediate;
+
 public class NumberOfNiceSubArrays{
     public int numberOfSubarrays(int[] nums, int k) {
         return numberOfSubarraysAtMost(nums, k) - numberOfSubarraysAtMost(nums, k - 1);

@@ -1,3 +1,5 @@
+package Easy;
+
 public class FirstUniqueCharacter {
     public int firstUniqueChar(String s){
         int[] count = new int[26];
