@@ -1,4 +1,4 @@
-public class ReverseVowelsOfString {
+public class ReverseVowelsInString {
     public String reverseVowels(String s) {
       StringBuilder sb = new StringBuilder(s);
       int l = 0;

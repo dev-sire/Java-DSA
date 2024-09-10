@@ -1,4 +1,4 @@
-public class ReverseWordsInAString {
+public class ReverseWordsInString {
     public String reverseWords(String s) {
       StringBuilder sb = new StringBuilder(s).reverse(); // Reverse the whole string.
       reverseWords(sb, sb.length());                     // Reverse each word.
