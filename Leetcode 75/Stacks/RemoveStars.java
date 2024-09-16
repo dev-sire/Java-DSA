@@ -1,4 +1,4 @@
-package StacksDS;
+package Stacks;
 
 public class RemoveStars {
     public String removeStars(String s) {

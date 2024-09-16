@@ -1,4 +1,4 @@
-package StacksDS;
+package Stacks;
 import java.util.Stack;
 
 public class AsteriodCollision {
