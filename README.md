@@ -36,7 +36,7 @@ This repository is a comprehensive collection of data structures and algorithms 
 
 Bash
 
-```git clone https://github.com/your-username/Java-DSA.git```
+```git clone https://github.com/dev-sire/Java-DSA.git```
 
 Use code with caution.
 
