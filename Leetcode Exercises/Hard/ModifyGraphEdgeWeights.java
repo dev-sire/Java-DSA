@@ -1,5 +1,12 @@
 package Hard;
 
+import javafx.util.Pair;
+import java.util.List;
+import java.util.Arrays;
+import java.util.Queue;
+import java.util.PriorityQueue;
+import java.util.ArrayList;
+
 public class ModifyGraphEdgeWeights {
     public int[][] modifiedGraphEdges(int n, int[][] edges, int source, int destination, int target) {
       final int kMax = 2_000_000_000;

@@ -1,6 +1,7 @@
 import java.util.Queue;
 import java.util.PriorityQueue;
 import java.util.Arrays;
+import javafx.util.Pair;
 
 public class MaxSubsequenceScore {
     // Same as 1383. Maximum Performance of a Team
